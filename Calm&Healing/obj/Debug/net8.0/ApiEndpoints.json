@@ -1,0 +1,124 @@
+[
+  {
+    "ContainingType": "Calm_Healing.Controllers.Admin.AdminAuthenticationController",
+    "Method": "AdminLogin",
+    "RelativePath": "api/v1/admin-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "Calm_Healing.DAL.DTOs.AdminLoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calm_Healing.Controllers.Admin.AdminAuthenticationController",
+    "Method": "AdminRegistration",
+    "RelativePath": "api/v1/admin-registration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDTO",
+        "Type": "Calm_Healing.DAL.DTOs.AdminRegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calm_Healing.Controllers.Admin.AdminAuthenticationController",
+    "Method": "NewSchema",
+    "RelativePath": "api/v1/create-schema",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calm_Healing.Controllers.Admin.AdminAuthenticationController",
+    "Method": "GroupRegistration",
+    "RelativePath": "api/v1/group-registration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDTO",
+        "Type": "Calm_Healing.DAL.DTOs.AdminRegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calm_Healing.Controllers.Authentication.ProviderGroupController",
+    "Method": "AdminLogin",
+    "RelativePath": "api/v1/provider-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "Calm_Healing.DAL.DTOs.ProviderGroupLoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calm_Healing.Controllers.Authentication.ProviderGroupController",
+    "Method": "AdminRegistration",
+    "RelativePath": "api/v1/provider-registration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDTO",
+        "Type": "Calm_Healing.DAL.DTOs.ProviderGroupRegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calm_Healing.Controllers.Authentication.ProviderGroupController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/v1/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenResponse",
+        "Type": "Calm_Healing.DAL.DTOs.TokenResponse",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calm_Healing.Controllers.Admin.AdminAuthenticationController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/v1/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenResponse",
+        "Type": "Calm_Healing.DAL.DTOs.TokenResponse",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

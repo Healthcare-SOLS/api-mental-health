@@ -1,0 +1,6 @@
+@Calm_Healing_HostAddress = http://localhost:5216
+
+GET {{Calm_Healing_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
